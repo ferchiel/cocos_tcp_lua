@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="event">
+      <UniqueIdentifier>{7392deea-628c-4be5-b44f-8a45735e45a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua">
+      <UniqueIdentifier>{60767f9c-a1e7-4116-bd67-3ab2b5a2aaa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network">
+      <UniqueIdentifier>{0cf91255-47aa-4894-9cb8-d30cb1cadea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua5.1.4">
+      <UniqueIdentifier>{105dd4dc-7bd6-495c-9961-f9fea4b9122c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="zbase.cpp" />
+    <ClCompile Include="zgame.cpp" />
+    <ClCompile Include="event\evtNetworkConnect.cpp">
+      <Filter>event</Filter>
+    </ClCompile>
+    <ClCompile Include="event\evtNetworkData.cpp">
+      <Filter>event</Filter>
+    </ClCompile>
+    <ClCompile Include="event\evtNetworkDisconnect.cpp">
+      <Filter>event</Filter>
+    </ClCompile>
+    <ClCompile Include="event\evtNetworkMsgerr.cpp">
+      <Filter>event</Filter>
+    </ClCompile>
+    <ClCompile Include="event\zevent.cpp">
+      <Filter>event</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\zluabuffer.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\zluaevent.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\zluaevent_init.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\zluanetwork.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\zluaregister.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="network\zbuffer.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\znetwork.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\zsocket.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lcode.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\ldblib.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\ldebug.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\ldo.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\ldump.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lfunc.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lgc.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\linit.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\liolib.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\llex.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lmathlib.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lmem.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\loadlib.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lobject.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lopcodes.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\loslib.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lparser.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lstate.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lstring.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lstrlib.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\ltable.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\ltablib.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\ltm.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lua.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\luac.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lundump.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lvm.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lzio.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\print.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lapi.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lauxlib.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="lua5.1.4\lbaselib.c">
+      <Filter>lua5.1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="zentry.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="zbase.h" />
+    <ClInclude Include="zgame.h" />
+    <ClInclude Include="ztype.h" />
+    <ClInclude Include="event\zevent.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\zlua.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\zluabuffer.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\zluaevent.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\zluanetwork.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\zluaregister.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="network\zbuffer.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\znetwork.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\zsocket.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\lcode.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\ldebug.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\ldo.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\lfunc.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\lgc.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\llex.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\llimits.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\lmem.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\lobject.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\lopcodes.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\lparser.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\lstate.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\lstring.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\ltable.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\ltm.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\lua.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\luaconf.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\lualib.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\lundump.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\lvm.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\lzio.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\lapi.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+    <ClInclude Include="lua5.1.4\lauxlib.h">
+      <Filter>lua5.1.4</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lua5.1.4\Makefile">
+      <Filter>lua5.1.4</Filter>
+    </None>
+  </ItemGroup>
+</Project>
